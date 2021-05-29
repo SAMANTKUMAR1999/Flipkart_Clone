@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+:root{
+    --main-bg-color: brown;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #2874f0;
+    font-family: 'patrick Hand',cursive;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center  ;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 23px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:rgb(28, 50, 209);
+    font-style: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 6px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.search button{
+    font-family: 'patrick',cursive;
+    font-weight:900;
+    }
+
+    .slider{
+        width:80vw;
+        margin: 12px auto;
+        overflow: hidden;
+    }
+
+    .card{
+        max-width: 91vw;
+        margin: 30px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card-item{
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 28px;
+    }
+
+    .card h2{
+
+        font-family:'patrick Hand',cursive;
+    }
+
+    .container{
+        min-height: calc(100vh-60px-12vh);
+        justify-content: center;
+    }
+    
+footer{
+    height: 12vh;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'patrick',cursive;
+}
